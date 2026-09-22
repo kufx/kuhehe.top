@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酷小呵地址页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            padding: 40px 16px;
+            background-color: #f7f8fa;
+            font-family: system-ui,serif;
+            /* 页面整体居中 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* 主卡片容器 */
+        .link-card {
+            width: 100%;
+            max-width: 600px;
+            /* 只设置最小高度，高度由内容自动撑开 */
+            min-height: 120px;
+            padding: 32px 28px;
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            /* 正常文档流，不会脱离 */
+            position: relative;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #222;
+            margin-bottom: 16px;
+        }
+        .desc {
+            font-size: 16px;
+            line-height: 1.75;
+            color: #555;
+            margin-bottom: 20px;
+            word-wrap: break-word;
+        }
+        .url-text {
+            font-size: 15px;
+            padding: 10px 14px;
+            background-color: #f4f5f7;
+            border-radius: 12px;
+            color: #2b7bce;
+            word-break: break-all;
+        }
+        .footer-tip {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="link-card">
+        <div class="title">酷小呵聊天室</div>
+        <div class="desc">
+            本站永久地址，收藏本地址防止失联。
+            <br>内容更新与公告都会在此发布。
+        </div>
+        <div class="url-text">kuhehe.top</div>
+    </div>
+    <div class="footer-tip">© 2026 酷小呵</div>
+</body>
+</html>
